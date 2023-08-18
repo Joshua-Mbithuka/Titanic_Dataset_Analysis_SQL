@@ -107,12 +107,12 @@ ELSE
     END
 
 ---The Age demographics of Survivors
----Number of Kids that survived
+---Number of Adults that survived
 Select count(*) as ADULTS
 FROM dbo.titanic
 where Survived = 1 and Age > = 18
 
----Number of Adults that survived
+---Number of Kids that survived
 Select count(*) as Kids
 FROM dbo.titanic
 where Survived = 1 and Age <18
@@ -136,7 +136,7 @@ where Survived = 1
 AND Age= (Select MIN(Age) from dbo.titanic)
 
 
-------------Finnally we create a view we can use for
+------------Finnally we create a view we can use for Visualizations
 CREATE VIEW Transformed_data AS  
 Select PassengerId, Survived, Pclass, Name, Sex,  Round(Age, 0) AS Age, Boarding_Destination
 FROM dbo.titanic
