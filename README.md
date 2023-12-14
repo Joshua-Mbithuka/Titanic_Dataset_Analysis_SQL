@@ -1,0 +1,2 @@
+The sinking of the RMS Titanic remains one of the most tragic maritime disasters in history. While the event itself has been extensively covered in literature and film, delving into its dataset provides a unique perspective, bringing stories of its passengers and crew to life through numbers and patterns.
+Using SQL, we can uncover layers of insights that narrate tales of hope, despair, survival, and loss. This Analysis aims to guide you through an analytical journey, examining the Titanic dataset with SQL. We will be building our EDA Skills using this project.
