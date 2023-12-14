@@ -1,4 +1,12 @@
-/* Understand your data set first*/
+/*
+The sinking of the RMS Titanic remains one of the most tragic maritime disasters in history. 
+While the event itself has been extensively covered in literature and film, delving into its dataset provides a 
+unique perspective, bringing stories of its passengers and crew to life through numbers and patterns.
+Using SQL, we can uncover layers of insights that narrate tales of hope, despair, survival, and loss. 
+This Analysis aims to guide you through an analytical journey, examining the Titanic dataset with SQL. We will be building our EDA Skills using this project.
+*/
+
+---Understand your data set first
 Select top(5) * from dbo.titanic
 
 
@@ -141,3 +149,11 @@ CREATE VIEW Transformed_data AS
 Select PassengerId, Survived, Pclass, Name, Sex,  Round(Age, 0) AS Age, Boarding_Destination
 FROM dbo.titanic
 where Boarding_Destination IS NOT NULL
+
+
+-------------------Summary of the insights...
+/* Based on the analysis above, here's a summary of findings for the Titanic incident:
+•	Age Distribution: Younger passengers (children) had a better survival rate, while the elderly had lower survival chances. Middle-aged individuals, especially males, formed the bulk of casualties.
+•	Gender and Survival: Women had a significantly higher survival rate than men.
+•	Passenger Class: First-class passengers had a higher survival rate, indicating socio-economic status played a role in survival chances.
+*/
