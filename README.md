@@ -7,6 +7,8 @@ The Titanic dataset data analysis aimed to uncover patterns and insights related
 * Passenger Class: Explore the relationship between socio-economic status (reflected in passenger class) and survival rates, determining if there was a correlation between first-class passengers and higher chances of survival.
 
 **TOOLS and skills Used** : SQL, Exploratory data analysis
+
+
 **Insights uncovered**
 * Age Distribution: Younger passengers (children) had a better survival rate, while the elderly had lower survival chances. Middle-aged individuals, especially males, formed the bulk of casualties.
 * Gender and Survival: Women had a significantly higher survival rate than men.
